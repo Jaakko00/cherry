@@ -1,0 +1,33 @@
+logo .cherryName {
+    color: black
+  }
+  logo .cherryRandom { display: none; }
+  logo:hover .cherryName { display: none; }
+  logo:hover .cherryRandom {
+    display: inline; 
+    color: red;
+  }
+   .filter-red:hover{
+    filter: invert(15%) sepia(86%) saturate(4386%) hue-rotate(360deg) brightness(102%) contrast(128%);
+  }
+   #logo {
+     color: black;
+   }
+   #logo:hover {
+     color: red;
+   }
+   /* [1] The container */
+  .img-hover-zoom {
+     /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: opacity .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    opacity: 50%;
+  }
