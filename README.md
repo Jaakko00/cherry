@@ -1,5 +1,6 @@
 # cherry.
-cherry. is a social media application project made using freeCodeCamp.org tutorial https://www.youtube.com/watch?v=ImtZ5yENzgE
+cherry. is a social media application project made using freeCodeCamp.org tutorial https://www.youtube.com/watch?v=ImtZ5yENzgE.
+This application is mainly coded using php laravel and bootstrap, using sqlite as the db.
 The idea is similar to Instagrams, but in cherry users can post cherries(pictures) on their trees(profiles). You can follow people and pick(like) peoples cherries. You can also find random cherries by clicking on the apps name.
 
 ## How to run
